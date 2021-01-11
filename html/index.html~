@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <title>Desphilman Pty Ltd</title>
+        <meta
+            name="generator"
+            content="WYSIWYG Web Builder 15 - http://www.wysiwygwebbuilder.com"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" type="image/jpg" href="images/favicon.png" />
+    </head>
+   <body>
+<header>This is a Header</header>
+
+<footer>This is a Footer</footer>
+</body>
+</html>
