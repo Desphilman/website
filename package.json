@@ -1,0 +1,34 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Desphilman Pty Ltd website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Desphilman/website.git"
+  },
+  "keywords": [
+    "Desphilman",
+    "Point",
+    "Cook"
+  ],
+  "author": "Desphilman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Desphilman/website/issues"
+  },
+  "homepage": "https://github.com/Desphilman/website#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "install": "^0.13.0",
+    "npm": "^6.14.11"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
