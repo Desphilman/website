@@ -1,12 +1,13 @@
 body::after {
-	background-image: url(../images/yaghoobeleis.jpg);
+	background-image: url(../images/yaghoob.jpg);
+	
 	background-repeat: repeat-y;
 	background-size: 100%;
 	background-position-y: 100px;
 	width: 100%;
 	min-width: 600px;
 	content: '';
-	opacity: 0.11;
+	opacity: 0.21;
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -18,7 +19,7 @@ body::after {
 .header-class {
 	margin: auto;
 	width: 100%;
-	height: 160px;
+	height: 50px;
 	background-color: white;
 	min-width: 600px;
 }
@@ -38,6 +39,17 @@ body::after {
 	-webkit-filter: invert(1);
 	filter: invert(1);
 }
+.imagediv{
+background-image: image("images/yaghoob.jpg");
+
+position:absolute;
+
+}
+.contentimage {
+
+	opacity: 60%; width: 100%;
+	background-repeat: repeat-y;
+}
 
 .main-contents {
 	margin-top: 15%;
@@ -54,14 +66,114 @@ body::after {
 
 .main-contents a {
 	margin-left: 24px;
+	color:black;
+	font-size: x-small;
 	
 }
 
-@media only screen and (max-width: 760px) {
+.menu {
+	width:5%;
+	text-align: justify;
+	font-family:sans-serif;
+	 color:white;
+	 float: left; 
+	 margin-right: 20px;
+	 
+	
+}
+
+
+.menu li a {
+	color: black;
+	text-decoration: none;
+	
+}
+
+.welcome {
+	
+	text-align: justify;
+	font-family:sans-serif;
+	 color: rgb(68, 68, 68); 
+	 float: left; 
+	 margin-left: 50px;
+}
+
+.services {
+	
+	margin-top: 20px;
+	font-family:sans-serif;
+	 color: rgb(68, 68, 68);
+	float: left;  
+	margin-left: 80px;
+	
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color:white
+	font-size: 25px;
+
+	
+  }
+
+
+
+ li {
+	
+	border-radius: 3px;
+	
+	box-shadow: 1px 1px 0px 1px gray;
+	margin-bottom: 13px;
+	width: 80px
+	
+  }
+
+  li:hover {
+	 
+
+	background-color: rgb(168, 168, 168);
+  }
+
+
+
+
+ 
+
+
+@media only screen and (max-width: 944px)  {
+
+
+	.imagediv{
+
+		position:absolute;
+		margin:left;
+		}
+
+
+	.welcome {
+
+		font-family:sans-serif; color: rgb(68, 68, 68); 
+		display: block;
+	}
+	
+	.services {
+	float: left;
+	margin-left:100px
+	
+			
+	}
+
+
+
+
 	.main-contents {
-		
-		max-width: 320px;
+		font-size: small;
+		position:relative;
 		margin-top: 60px;
+		
 		
 	}
 
@@ -96,4 +208,9 @@ body::after {
 	.header-class h1 {
 		margin-left: 100px;
 	}
+
+
+
+
+
 }
