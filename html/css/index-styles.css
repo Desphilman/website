@@ -1,27 +1,9 @@
-body::after {
-	background-image: url(../images/yaghoob.jpg);
-	
-	background-repeat: repeat-y;
-	background-size: 100%;
-	background-position-y: 100px;
-	width: 100%;
-	min-width: 600px;
-	content: '';
-	opacity: 0.21;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	position: absolute;
-	z-index: -1;
-}
-
 .header-class {
 	margin: auto;
 	width: 100%;
-	height: 50px;
+	height: 120px;
 	background-color: white;
-	min-width: 600px;
+	min-width: 400px;
 }
 
 .header-class h1 {
@@ -33,153 +15,128 @@ body::after {
 
 .header-class img {
 	position: absolute;
-	width: 140px;
-	height: 140px;
+	width: 120px;
+	height: 120px;
 	background-color: Black;
 	-webkit-filter: invert(1);
 	filter: invert(1);
 }
-.imagediv{
-background-image: image("images/yaghoob.jpg");
 
-position:absolute;
-
-}
 .contentimage {
-
-	opacity: 60%; width: 100%;
+	opacity: 60%;
+	width: 100%;
 	background-repeat: repeat-y;
 }
 
+.main-contents::after {
+	background-image: url(../images/yaghoob.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	min-width: 700px;
+	min-height: 600px;
+	content: '';
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}
+
 .main-contents {
-	margin-top: 15%;
+	margin-top: 4px;
 	display: block;
-	position:absolute;
-	width:100%;
+	position: absolute;
+	width: 100%;
 }
 
 .main-contents p {
 	margin-left: 20px;
 	max-width: 380px;
-	
 }
 
 .main-contents a {
-	margin-left: 24px;
-	color:black;
+	margin-left: 4px;
 	font-size: x-small;
-	
 }
 
-.menu {
-	width:5%;
-	text-align: justify;
-	font-family:sans-serif;
-	 color:white;
-	 float: left; 
-	 margin-right: 20px;
-	 
-	
-}
-
-
-.menu li a {
-	color: black;
-	text-decoration: none;
-	
+.main-contents h1 {
+	font-size: 26px;
 }
 
 .welcome {
-	
+	margin-top: 5%;
 	text-align: justify;
-	font-family:sans-serif;
-	 color: rgb(68, 68, 68); 
-	 float: left; 
-	 margin-left: 50px;
+	font-family: sans-serif;
+	color: rgb(68, 68, 68);
+	float: left;
+	padding-left: 50px;
+	min-width: 360px;
 }
 
-.services {
-	
-	margin-top: 20px;
-	font-family:sans-serif;
-	 color: rgb(68, 68, 68);
-	float: left;  
-	margin-left: 80px;
-	
-
+div.menu {
+	margin-top: 10%;
+	width: 15%;
+	min-width: 100px;
+	text-align: justify;
+	font-family: sans-serif;
+	color: white;
+	float: left;
+	margin-right: 20px;
 }
 
-ul {
+div.menu ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	color:white
-	font-size: 25px;
+	color: white;
+}
 
-	
-  }
-
-
-
- li {
-	
+div.menu ul li {
+	margin: 6px;
 	border-radius: 3px;
-	
 	box-shadow: 1px 1px 0px 1px gray;
-	margin-bottom: 13px;
-	width: 80px
-	
-  }
+	min-width: 120px;
+}
 
-  li:hover {
-	 
+div.menu ul li a {
+	color: Blue;
+	text-decoration: none;
+	font-size: 12px;
+}
 
+div.menu ul li a:hover {
+	color: Red;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+div.menu ul li:hover {
 	background-color: rgb(168, 168, 168);
-  }
+	text-decoration: underline;
+}
 
-
-
-
- 
-
-
-@media only screen and (max-width: 944px)  {
-
-
-	.imagediv{
-
-		position:absolute;
-		margin:left;
-		}
-
+@media only screen and (max-width: 700px) {
+	.main-contents::after {
+		background-repeat: repeat-y;
+	}
 
 	.welcome {
-
-		font-family:sans-serif; color: rgb(68, 68, 68); 
+		margin-top: 5%;
+		font-family: sans-serif;
+		color: rgb(68, 68, 68);
 		display: block;
 	}
-	
-	.services {
-	float: left;
-	margin-left:100px
-	
-			
-	}
-
-
-
 
 	.main-contents {
 		font-size: small;
-		position:relative;
-		margin-top: 60px;
-		
-		
+		margin-top: 4px;
 	}
 
 	.main-contents h1 {
-		font-size: 26px;
-		
+		font-size: 20px;
 	}
 
 	.header-class h1 {
@@ -199,18 +156,17 @@ ul {
 	}
 
 	.header-class {
-		margin: auto;
-		width: 100%;
 		height: 100px;
-		background-color: white;
-		min-width: 600px;
 	}
 	.header-class h1 {
 		margin-left: 100px;
 	}
 
+	div.menu {
+		margin: 4px;
+	}
 
-
-
-
+	div.menu ul {
+		display: -webkit-box;
+	}
 }
