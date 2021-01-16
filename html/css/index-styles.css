@@ -34,7 +34,7 @@
 	background-size: 100%;
 	width: 100%;
 	min-width: 700px;
-	min-height: 600px;
+	min-height: 700px;
 	content: '';
 	opacity: 0.5;
 	top: 0;
@@ -74,6 +74,17 @@
 	float: left;
 	padding-left: 50px;
 	min-width: 360px;
+}
+
+.table-div {
+	width: 80%;
+	display: inline-block;
+}
+
+.talbe-div table,
+th,
+td {
+	border: 1px solid black;
 }
 
 div.menu {
