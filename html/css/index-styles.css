@@ -76,6 +76,7 @@
 	min-width: 360px;
 }
 
+
 .table-div {
 	width: 80%;
 	display: inline-block;
@@ -144,10 +145,16 @@ div.menu ul li:hover {
 	}
 
 	.welcome {
+		color:black;
 		margin-top: 5%;
 		font-family: sans-serif;
 		color: rgb(68, 68, 68);
 		display: block;
+	}
+
+	.welcome a{
+		color: black;
+		font-size: 20px;
 	}
 
 	.main-contents {
